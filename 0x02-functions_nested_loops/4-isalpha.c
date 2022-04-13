@@ -2,7 +2,7 @@
 
 /**
  *  _isalpa - check for lower case letter
- *  @c : character to chech
+ *  @c : character to check
  *  Return: 0 or 1
  */
 
