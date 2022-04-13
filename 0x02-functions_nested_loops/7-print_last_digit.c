@@ -6,9 +6,9 @@
  * Return: integer value
  */
 
-int print_last_digits(int n)
+int print_last_digit(int n)
 {
-	int las;
+	int last;
 
 	last = n % 10;
 
