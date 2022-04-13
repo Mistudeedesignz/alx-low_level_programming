@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _isalpa - check for lower case letter
+ *  _isalpha - check for lower case letter
  *  @c : character to check
  *  Return:0 or 1
  */
