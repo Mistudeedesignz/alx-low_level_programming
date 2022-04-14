@@ -39,7 +39,6 @@ while (a <= 9)
 		b++;
 	}
 	_putchar('/n');
-	a++;
 }
 
 }
