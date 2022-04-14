@@ -2,6 +2,7 @@
 
 /**
  * times_table -prints times table
+ *
  * Return:void
  */
 
@@ -40,5 +41,4 @@ while (a <= 9)
 	}
 	_putchar('/n');
 }
-
 }
