@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _isdigit - checkes if the nois b/n 0-9
- * @c: input no
- * Return: 1 if is a number (0 to 9), 0 in other case.
+ * _isupper - checkes upper case
+ * @c: print int
+ * Return:give 1 or 0
  */
-int _isdigit(int c)
+int _isdupper(int c)
 {
-if (c >= 48 && c <= 57)
+if (c >= 'AA' && c <='Z')
 {
 return (1);
 }
@@ -14,5 +14,4 @@ else
 {
 return (0);
 }
-_putchar('\n');
 }
