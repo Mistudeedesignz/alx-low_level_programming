@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * times_table -prints times table
- *
+ * times_table - prints times table
  * Return:void
  */
 
@@ -39,6 +38,8 @@ while (a <= 9)
 		}
 		b++;
 	}
-	_putchar('/n');
+	_putchar('\n');
+	a++;
 }
+
 }
