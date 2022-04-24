@@ -2,8 +2,9 @@
 
 /**
  * leet - encodes a string into 1337
- * @s: input string.
- * Return: the pointer to dest.
+ * @s: string to be encoded
+ *
+ * Return: the resulting string
  */
 
 char *leet(char *s)
@@ -23,5 +24,6 @@ char *leet(char *s)
 				}
 			}
 		}
+
 		return (s);
 }
