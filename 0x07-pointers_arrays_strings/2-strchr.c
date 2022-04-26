@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * @ _strchr - locate a character in a string
+ * @_strchr - locate a character in a string
  * @s:string
  * @c:char
  * Return:pointer to char*
