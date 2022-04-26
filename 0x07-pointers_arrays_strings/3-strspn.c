@@ -20,7 +20,7 @@ for (i = 0; accept[i]; i==)
 		x++;
 		break;
 	}
-	else if (accept[i = 1] == '\0')
+	else if (accept[i + 1] == '\0')
 	{
 		return (x);
 	}
