@@ -27,7 +27,7 @@ int x;
 		       	} while (haystack[x] == needle[x]);
 		}
 
-		haystack++
+		haystack++;
 	}
 
 	return ('\0');
