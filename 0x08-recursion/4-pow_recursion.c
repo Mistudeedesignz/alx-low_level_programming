@@ -6,7 +6,7 @@
  * @y: exponent.
  * Return: value of the exponentiation.
  */
-int _pow_recursion(int , int y)
+int _pow_recursion(int x , int y)
 {
 	if (y < 0)
 		return (-1);
