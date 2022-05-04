@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < 5 && s; i++)
 		{
-			n=s / c[i];
+			n = s / c[i];
 			ch += n;
 			s -= n * c[i];
 		}
