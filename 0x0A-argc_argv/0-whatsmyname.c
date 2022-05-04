@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * @main - This prints the name of the programme
+ * main - This prints the name of the programme
  * @argc: The number of the arguments
  * @argv: An array of the arguments passed
  * Return: 0
- * */
+ */
 
 int main(int argc, char **argc)
 {
