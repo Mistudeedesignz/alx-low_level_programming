@@ -18,7 +18,7 @@ if (argc != 3)
 else
 {
 	i = atoi(argv[1]);
-	j = atoi(argv[2]0;
+	j = atoi(argv[2]);
 	x = i * j;
 	printf("%d\n", x);
 }
