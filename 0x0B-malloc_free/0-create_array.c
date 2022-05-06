@@ -3,7 +3,7 @@
 
 /**
  * create_array - allocate space for an array
- * @size:unsigned int
+ * @size:unssigned int
  * @c:char
  * Return:char
  */
@@ -11,7 +11,7 @@ char *create_array(unsigned int size, char c)
 {
 
 	unsigned int i;
-	char *x
+	char *x;
 
 	if (size == 0)
 		return (NULL);
