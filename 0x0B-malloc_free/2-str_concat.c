@@ -3,7 +3,7 @@
 
 /**
  * str_concat - concat 2 strings
- * @s:string1
+ * @s1:string1
  * @s2:string2
  * Return:char
  */
