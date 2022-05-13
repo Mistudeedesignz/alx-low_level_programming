@@ -29,15 +29,14 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (inex = 0; index < bytes; index++)
+	for (index = 0; index < bytes; index++)
 	{
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
 		if (index == bytes - 1)
 			continue;
-
-		printf(" ")
+		printf(" ");
 
 		address++;
 	}
