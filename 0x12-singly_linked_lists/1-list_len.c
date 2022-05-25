@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * list_en - returns the number of element in a linked list
+ * list_en - returns the number of element in a linked list_t list
  * @h: pointer to the list_t list
  *
  * Return: number of elements in h
