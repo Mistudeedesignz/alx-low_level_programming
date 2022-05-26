@@ -1,19 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdio.h>
-#include <stddef.h>
-#include <string.h>
-#include <stdlib.h>
-
 /**
  * struct list_s - singly linked list
- * @str: string - (mallo'ed string)
+ * @str: string 
  * @len: length of the string
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * for Holberton project
+ * @next next node
  */
 typedef struct list_s
 {
