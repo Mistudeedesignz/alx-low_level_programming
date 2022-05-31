@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
- * clear_bit - sets the value of a given bit to 0
- * @n: pointer to the number to change
- * @index: index of the bit to clear
- *
- * Return: 1 for success, -1 for failure
+ * get_endianness - checks if a machine is little or big endian
+ * Return: 0 for big, 1 for little
  */
-int clear_bit(unsigned long int *n, unsigned int index)
+nt get_endianness(void)
 {
-	if (index > 63)
-		return (-1);
+	unsigned int i = 1;
+	char *c = (char *) &i;
 
-	*n = (~(1UL << index) & *n);
-	return (1);
+	return (*c);
 }
