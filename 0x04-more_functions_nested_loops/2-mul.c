@@ -1,20 +1,12 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * _isupper - checkes upper case
- * @c: print int
- * Return: give 1 or 0
+ * mul - checks for lowercase character.
+ * @a: entero recibo por main.
+ * @b: entero recibido por main
+ * Return: 1 if c is uppercase
  */
-
-int _isupper(int c)
+int mul(int a, int b)
 {
-if (c >= 'A' && C <= 'Z')
-{
-return (1);
-}
-
-else
-{
-return (0);
-}
-
+	return (a * b);
 }
