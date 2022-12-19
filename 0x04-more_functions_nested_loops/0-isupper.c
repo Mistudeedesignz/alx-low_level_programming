@@ -1,22 +1,22 @@
-#include "main.h"
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * _isupper - checkes upper case
- * @c: print int
- * Return:give 1 or 0
+ * _isupper - checks for lowercase character.
+ * @c: caracter recibo por main.
+ * Return: 1 if c is uppercase
  */
-
-int _isdupper(int c)
+int _isupper(int c)
 {
-if (c >= 'AA' && c <='Z')
-{
-return (1);
-}
-
-else
-{
-return (0);
-}
-
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else if (c <= 'z')
+	{
+		return (0);
+	}
+	else
+	{
+		return (0);
+	}
 }
